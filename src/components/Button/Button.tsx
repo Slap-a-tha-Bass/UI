@@ -2,10 +2,11 @@ import React from "react";
 
 export interface ButtonProps {
   label: string;
+  color: string | number;
 }
 
-const Button = (props: ButtonProps) => {
-  return <button>{props.label}</button>;
+const Button = ({ label, color }: ButtonProps) => {
+  return <button style={{ color: `${color}` }}>{label}</button>;
 };
 
 export default Button;

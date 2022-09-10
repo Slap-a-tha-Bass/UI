@@ -1,9 +1,6 @@
 {
   "name": "@slap-a-tha-bass/ui",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/Slap-a-tha-bass"
-  },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A react component library for CCG",
   "scripts": {
     "rollup": "rollup -c"
